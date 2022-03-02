@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;800&display=swap');
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #363636;
+  padding-top: 1em;
+}
+
+.card{
+  width: 50%;
+  margin:auto;
+  background-color: #1C1C1C;
+  padding: 1em ;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+#expence-list{
+  min-height: 600px;
+}

@@ -1,0 +1,68 @@
+.expense-item{
+    display: flex;
+    width: 95%;
+    background-color:#414141;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 1em;
+    column-gap: 1em;
+    font-size: 21px;
+    padding: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition:box-shadow 0.2s ease-in;
+    cursor:pointer;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.expense-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.expense-item__date{
+    background-color: #242424;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    width: 70px;
+}
+
+.expense-item__date .day{
+    font-weight: 800;
+    font-size: 1.5em;
+}
+.expense-item__date .month{
+    font-weight: 800;
+    font-size: 0.9em;
+}
+.expense-item__date .year{
+    font-weight: 600;
+    font-size: 0.7em;
+}
+
+
+.expense-item__date .month{
+    font-weight: 500;
+}
+
+.expense-item__title{
+    font-weight: 600;
+}
+
+.expense-item__price{
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #360052;
+  padding: 0.5em ;
+  text-align: center;
+  border-radius: 0.5em;
+  border:2px solid white;
+  min-width: 100px;
+}

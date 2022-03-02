@@ -1,0 +1,52 @@
+
+.new-expence{
+    display: flex;
+}
+
+.expence-form{
+    width: 100%;
+}
+
+.expence-form .form-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.7em;
+    row-gap: 0.5em;
+    width: 80%;
+}
+
+.expence-form .input-group{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+label{
+    font-weight: 600;
+}
+
+input{
+    height: 30px;
+    border-radius: 0.5em;
+    border-color: transparent;
+}
+
+.btn-block{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 0.5em;
+}
+.btn-add{
+    background-color: #360052;
+    color:white;
+    padding:1em;
+    border-radius: 1em;
+    font-size: 1.1em;
+    border: none;
+    cursor:pointer;
+}
+
+#add-new-expence-btn{
+    
+    margin:auto;
+}
